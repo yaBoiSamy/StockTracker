@@ -9,7 +9,7 @@ from Questrade_Interface.Valuation import Valuation
 
 class QuestradeAPIManager(metaclass=Singleton):
     def __init__(self):
-        self.access_token = "kJIGv7pqawdOSLCiDloRf1oVPzkTp32X0"
+        self.access_token = ""
         self.api_server = "https://api01.iq.questrade.com/"
         self.expires_at = time.time() + 1600
         self.refresh()
